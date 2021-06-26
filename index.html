@@ -1,0 +1,510 @@
+<html>
+<head>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+  <!-- <script type="text/javascript" src="js/myscript.js"></script> -->
+  <script type="text/javascript" src="js/var.js"></script>
+
+
+</head>
+		<body>
+
+<!-- <table>
+	<tr>
+	<td>Name</td>
+	<td><input type="text" id="name"></td>
+</tr>
+<tr>
+<td><button class="btn btn-primary" id ="save">Save</button></td>
+</tr>
+</table>
+ <div class="jumbotron text-center">
+ 	<h1>Simple Interest</h1>
+</div>
+
+
+<table>
+	<tr>
+	<td>Enter Principal Amount:</td>
+	<td><input type="text" id="principal"></td>
+</tr>
+<tr>
+	<td>Enter Interest Rate:</td>
+	<td><input type="text" id="interest"></td>
+</tr>
+<tr>
+	<td>Enter Tenure:</td>
+	<td><input type="text" id="tenure"></td>
+</tr>
+<tr>
+	<td>Enter Tenure:</td>
+	<td><input type="text" id="tenure"></td>
+</tr>
+<br>
+<tr style="text-align:right">
+<td><button class="btn btn-primary" id ="calculate">Calculate</button></td>
+</tr>
+</table>
+
+
+<br><br><br><br><br>
+
+			<p id ="sresult"></p>
+
+
+			 <div class="jumbotron text-center">
+ 	<h1>Farenheit to celcius</h1>
+</div>
+
+
+<table>
+	<tr>
+	<td>Enter from degree <sup>o</sup>:</td>
+	<td><input id="fromdegree"></td>
+</tr>
+<tr>
+	<td>Enter from to degree <sup>o</sup>:</td>
+	<td><input id="todegree"></td>
+</tr>
+
+
+
+<tr>
+<td><button class="btn btn-primary" id ="calculatedegree">Calculate</button></td>
+</tr>
+</table>
+
+
+<br><br><br><br><br>
+
+			<p id ="degreeresult"></p>
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 
+
+			 <div class="jumbotron text-center">
+ 	<h1>Tables as input</h1>
+</div>
+
+
+<table>
+	<tr>
+	<td>Enter the numbers:</td>
+	<td><input id="inputNumbers"></td>
+</tr>
+
+<tr>
+<td><button class="btn btn-primary" id ="runNumbers">Run</button></td>
+</tr>
+</table>
+
+
+<br><br><br><br><br>
+
+			<p id ="displaytables"></p>
+
+<!-----------------------------------------RADIUS CUMFERANCE------------------------------------------------------------------------------------------------------------------------>
+
+
+			 <div class="jumbotron text-center">
+ 	<h1>Calculate radius amd circumferance</h1>
+</div>
+
+
+<table>
+	<tr>
+	<td>Enter the radius:</td>
+	<td><input id="radius"></td>
+</tr>
+
+<tr>
+<td><button class="btn btn-primary" id ="acRun">Run</button></td>
+</tr>
+</table>
+
+
+<br><br><br><br><br>
+
+			<p id ="acResult"></p>
+
+<br><br><br><br><br>
+
+<tr>
+<td><button class="btn btn-primary" id ="datebtn">Run</button></td>
+</tr>
+
+<p id="date">Click button to view date here</p>
+
+
+
+
+
+
+
+
+<div id="newDiv">
+	<p id="p1">This is para 1 </p>
+	<p id="p2">This is para 2</p>
+</div>
+
+<script>
+
+
+	var para = document.createElement("p");
+	var node = document.createTextNode("This is New");
+	para.appendChild(node);
+
+
+	var element = document.getElementById("newDiv");
+	element.appendChild(para);
+
+</script>
+
+
+<button onclick="myFunction()">Try it</button>s
+
+
+<p id="demo"></p>
+ -->
+
+
+
+
+
+			<nav class="navbar navbar-expand nav-fill navbar-dark bg-dark navbar-fixed-top" data-spy="affix">
+				<a href="navbar navbar-brand">Logo</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link navbar-right">Home</a>
+			</nav>
+
+
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/one.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/two.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/three.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+			<div class="jumbotron text-center">
+				<h1>Grid System</h1>
+				<p>Rows, cols, text and bg alerts</p>
+			</div>
+
+
+
+			
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-3">
+						<h1 class="text-primary"><span class="glyphicon glyphicon-print"></span>Lorem Ipsum 1</h1>
+						<p><small>Lorem Ipsum</small> is <code>simply dummy text</code> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+					</div>
+					<div class="col-md-3">
+						<h1 class="bg-info">Lorem Ipsum 2</h1>
+						<p><kbd>Lorem Ipsum</kbd> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+					</div>
+					<div class="col-md-6">
+						<h1 class="bg-danger">Lorem Ipsum 3<span class="badge badge-success">23</span></h1>
+						<span class="badge badge-pill badge-success">simply dummy text</span>
+						<p><mark>Lorem Ipsum</mark> is <span class="badge badge-pill badge-sucess">simply dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>						
+
+					</div>
+
+
+				</div>	
+			</div>
+			<div class="jumbotron text-center">
+				<h1> Drop down and tables</h1>
+			</div>
+			<div class="container">
+
+				 <div class="dropdown">
+
+ <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Default&nbsp;<span class="badge badge-light">23</span></button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">one</a>
+						<a class="dropdown-item" href="#">two</a>
+					</div>
+</div> 
+
+<br>
+				<div class="row">
+					<table class="table table-condensed">
+						<tr>
+							<th>S.no</th>
+							<th>Name</th>
+							<th>Roll No</th>
+							
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Siva</td>
+							<td>0001</td>
+						</tr>
+						<tr>
+							
+							<td>2</td>
+							<td>Raju</td>
+							<td>0002</td>
+							
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Kamal</td>
+							<td>0003</td>
+						</tr>
+					</table>
+
+				</div>
+
+</div>
+<nav class="navbar navbar-expand nav-fill navbar-dark bg-dark navbar-fixed-top" data-spy="affix">
+				<a href="navbar navbar-brand">Logo</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link navbar-right">Home</a>
+			</nav>
+
+<div class="jumbotron text-center">
+				<h1> Progress Bars</h1>
+			</div>
+			<div class="container">
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+</div><br>
+				<div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%<br></div><br>
+</div>
+				<br>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br>
+
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="10" aria-valuenow="0" aria-valuemax="100" style="width:10%">10 %
+						</div>
+					</div>
+</div><br>
+				<!--------------pagination--------->
+				<div class="jumbotron text-center">
+				<h1> Pagination and breadcrumbs</h1>
+			</div>
+			<div class="container">
+
+<ul class="pagination">
+	<li class="page-item"><a class="page-link" href="#">1</a></li>
+	<li class="page-item"><a class="page-link" href="#">2</a></li>
+	<li class="page-item active"><a class="page-link" href="#">3</a></li>
+	<li class="page-item"><a class="page-link" href="#">4</a></li>
+	<li class="page-item disabled"><a class="page-link" href="#">5</a></li>
+	<li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul><br>
+
+	<ul class="breadcrumb">
+		<li class="breadcrumb-item"><a href="#">Home</a></li>
+		<li class="breadcrumb-item"><a href="#">Gallery</a></li>
+		<li class="breadcrumb-item" aria-current="page">Images</li>
+</ul>
+
+
+			</div>
+			<div class="jumbotron text-center">
+				<h1> List Groups</h1>
+			</div>
+			<div class="container">
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-warning list-group-item-heading">Apple<span class="badge badge-light">43</span></a>
+						<p class="list-group-item-text">Good</h1></p>
+					<a class="list-group-item list-group-item-success" href="#">Banana</a>
+					<a class="list-group-item list-group-item-primary" href="#">Orange</a>
+				</ul>
+			</div>
+<br><br><br>
+</div>
+</div>
+<div class="jumbotron text-center">
+	<h1>Panels</h1>
+</div>
+<div class="container">
+	<div class="card-header bg-success text-white">
+		<h1>Card-header</h1>
+	</div>
+	<div class="card" style="padding: 20px">
+		<h2 class="card-title">Cards</h2>
+		<p class="card-body">Testing of cards body header and different sizes</p>
+	</div>
+	<div class="card-footer bg-info text-white">
+		<h3>Card-footer</h3>
+	</div>
+	<br>
+	<br>
+</div>
+
+
+<!----------Drpdown------->
+	<div class="jumbotron text-center jumbotron-success">
+		<h1>Dropdowns</h1>
+	</div>
+<div class="container">
+		<div class="dropright">
+			<button type="button" class="btn btn-success dropdown-toggle" id="dropdownlabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownlabel">
+				<a href="#" class="dropdown-item">Drop 1</a>
+				 <div class="dropdown-divider"></div>
+				<a href="#" class="dropdown-item">Drop 2</a>
+				 <div class="dropdown-divider"></div>
+				<a href="#" class="dropdown-item">Drop 3</a>
+			</div>
+			</div>
+<br>
+	<br>
+		</div>
+
+
+
+		<!-------------------------Ccollapse----------->
+
+		<!----------Drpdown------->
+	<div class="jumbotron text-center jumbotron-success">
+		<h1>Collapse</h1>
+	</div>
+<div class="container">
+		
+			<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="collapse" data-target="#collapse1">Collapse toggle</button>
+			<div class="card card-body collapse" id="collapse1">
+				<p class="collapse-item"> Collapse content</p>
+			</div>
+			
+<br>
+			<!-------------------------Ccollapse----------->
+
+	<br>
+<div class="accordion">
+	<div class="card">
+		<div class="card-header" id="headingone">
+			<a href="#collapseone" aria-labelledby="#headingone" data-toggle="collapse" aria-expanded="false">Header collapsive</a>
+		</div>
+			<div class="card-body collapse in" id="collapseone" aria-expanded="false" aria-labelledby="#accordion" >
+				<p>Lorem ipsum</p>
+			</div>
+		</div>
+
+		</div>
+
+
+<br><br><br>
+						<!-------------------------Tabs & pills---------->
+
+
+						<ul class="nav nav-pills nav-fill">
+							<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+						</ul>
+
+<br><br><br>
+		
+			<!-------------------------NAVBAR---------->
+			<div class="jumbotron text-center">
+				<h1>Nav bar</h1>
+			</div>
+			<nav class="navbar navbar-expand nav-fill navbar-dark bg-dark navbar-fixed-top" data-spy="affix">
+				<a href="navbar navbar-brand">Logo</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link">Home</a>
+				<a class="navbar navbar-link navbar-right">Home</a>
+			</nav>
+				
+
+
+				<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on right
+</button>
+				<!-------------------------Input groop---------->
+			<div class="jumbotron text-center">
+
+
+				<h1 data-toggle="tooltip" title="Its">Input group</h1>
+			</div>
+			<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+
+
+				
+
+</div> -->
+
+	</body>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			    <script type="text/javascript" src="js/jquery1.js"></script>
+</html>
+
+
